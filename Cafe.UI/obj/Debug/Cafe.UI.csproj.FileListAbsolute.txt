@@ -1,0 +1,11 @@
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\obj\Debug\Cafe.UI.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\obj\Debug\Cafe.UI.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.UI.exe.config
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.UI.exe
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.UI.pdb
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.POCO.dll
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.Repo.dll
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.POCO.pdb
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\bin\Debug\Cafe.Repo.pdb
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\obj\Debug\Cafe.UI.exe
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.UI\obj\Debug\Cafe.UI.pdb

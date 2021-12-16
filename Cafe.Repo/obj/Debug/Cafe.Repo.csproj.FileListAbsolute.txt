@@ -1,0 +1,9 @@
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\bin\Debug\Cafe.Repo.dll
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\bin\Debug\Cafe.Repo.pdb
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\bin\Debug\Cafe.POCO.dll
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\bin\Debug\Cafe.POCO.pdb
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\obj\Debug\Cafe.Repo.csproj.AssemblyReference.cache
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\obj\Debug\Cafe.Repo.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\obj\Debug\Cafe.Repo.csproj.CopyComplete
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\obj\Debug\Cafe.Repo.dll
+C:\Users\Andrew\source\repos\ChallengeOne.Cafe\Cafe.Repo\obj\Debug\Cafe.Repo.pdb
