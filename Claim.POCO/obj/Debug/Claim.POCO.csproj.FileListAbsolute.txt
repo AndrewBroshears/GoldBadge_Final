@@ -1,0 +1,6 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\bin\Debug\Claim.POCO.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\bin\Debug\Claim.POCO.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\obj\Debug\Claim.POCO.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\obj\Debug\Claim.POCO.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\obj\Debug\Claim.POCO.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claim.POCO\obj\Debug\Claim.POCO.pdb

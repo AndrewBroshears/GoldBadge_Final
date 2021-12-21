@@ -1,0 +1,11 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Insurance.UI.exe.config
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Insurance.UI.exe
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Insurance.UI.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\obj\Debug\Insurance.UI.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\obj\Debug\Insurance.UI.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\obj\Debug\Insurance.UI.exe
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\obj\Debug\Insurance.UI.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Claim.POCO.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Claim.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Claim.POCO.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Insurance.UI\bin\Debug\Claim.Repository.pdb

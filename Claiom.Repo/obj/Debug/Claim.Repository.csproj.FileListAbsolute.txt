@@ -1,0 +1,8 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\bin\Debug\Claim.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\bin\Debug\Claim.Repository.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\bin\Debug\Claim.POCO.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\bin\Debug\Claim.POCO.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\obj\Debug\Claim.Repository.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\obj\Debug\Claim.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\obj\Debug\Claim.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Claiom.Repo\obj\Debug\Claim.Repository.pdb
