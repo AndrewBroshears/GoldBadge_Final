@@ -1,0 +1,9 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\bin\Debug\Badge.UI.exe.config
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\bin\Debug\Badge.UI.exe
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\bin\Debug\Badge.UI.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\bin\Debug\Badge.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\bin\Debug\Badge.Repository.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\obj\Debug\Badge.UI.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\obj\Debug\Badge.UI.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\obj\Debug\Badge.UI.exe
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.UI\obj\Debug\Badge.UI.pdb

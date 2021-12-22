@@ -1,0 +1,6 @@
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\bin\Debug\Badge.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\bin\Debug\Badge.Repository.pdb
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\obj\Debug\Badge.Repository.csproj.AssemblyReference.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\obj\Debug\Badge.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\obj\Debug\Badge.Repository.dll
+C:\Users\Andrew\OneDrive\Desktop\Eleven Fifty Projects\GoldBadge\FinalChallenges\ChallengeOne.Cafe\Badge.Repository\obj\Debug\Badge.Repository.pdb
