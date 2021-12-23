@@ -41,7 +41,7 @@ namespace Badge.UI
                         UpdateBadge();
                         break;
                     case "3":
-                        GetAllBadges();
+                        GetBadges();
                         break;
                     case "99":
                         isRunning = false;
@@ -117,22 +117,33 @@ namespace Badge.UI
             }
             _badgeRepo.UpdateDoors(userInputUpdateBadge);
         }
-        private void GetAllBadges()
+        private void GetBadges()
         {
             Console.Clear();
-            Dictionary<int, List<string>> badges =  _badgeRepo.GetBadges();
-            Console.WriteLine(String.Format("|{0, -20}|{1, -20}|", "Badge#", "Door Access"));
-            if(badges.Count > 0)
+            Dictionary<int, List<string>> badges = _badgeRepo.GetBadges();
+            Console.WriteLine(String.Format("|{0, -10}|{1, -10}|", "Badge#", "Door Access"));
+            
+            foreach (var b in badges)
             {
-                Console.WriteLine(String.Format("|{0, -20}|{1, -20}|", $"{badges.Keys}", $"{badges.Values}"));
+                string doors = GetDoors(b.Key);
+                Console.WriteLine(String.Format("|{0, -10}|{1, -10}|", $" {b.Key }", $"{doors}"));
+            }
+            Console.ReadKey();
+        }
+        private string GetDoors(int badgeNum)
+        {
+            string doors = "";
+            Dictionary<int, List<string>> badges = _badgeRepo.GetBadges();
+            List<string> listOfDoors = badges[badgeNum];
+            if (listOfDoors.Count == 0)
+            {
+                Console.WriteLine("No badges to display.");
             }
             else
             {
-                Console.WriteLine("No badges available.");
+                return doors;
             }
-            Console.WriteLine("Press any key to return to Main Menu.");
-            Console.ReadKey();
-
+            return doors;
         }
     }
 }
