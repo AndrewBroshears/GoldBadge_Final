@@ -10,17 +10,12 @@ namespace Badge.UI
     class ProgramUI
     {
         private readonly BadgeRepo _badgeRepo = new BadgeRepo();
-        private bool _isRunning = true;
         public void Run()
         {
-            bool isRunning = true;
-            while (isRunning)
-            {
-                RunApplication();
-            }
+            RunApplication();
         }
 
-        private void RunApplication()
+        private void Menu()
         {
             Console.Clear();
             Console.WriteLine("Hello Security Admin, What would you like to do?\n" +
@@ -28,34 +23,33 @@ namespace Badge.UI
                 "2. Edit a badge\n" +
                 "3. List all Badges\n" +
                 "99. Exit");
-            int appNumber;
-            if(int.TryParse(Console.ReadLine(), out appNumber))
+        }
+        private void RunApplication()
+        {
+            Console.Clear();
+            bool isRunning = true;
+            while (isRunning)
             {
-                switch (appNumber)
+                Menu();
+                string userInput = Console.ReadLine();
+                switch (userInput)
                 {
-                    case 1:
+                    case "1":
                         CreateBadge();
                         break;
-                    case 2:
+                    case "2":
                         UpdateBadge();
                         break;
-                    case 3:
+                    case "3":
                         GetAllBadges();
                         break;
-                    case 99:
-                        _isRunning = false;
+                    case "99":
+                        isRunning = false;
+                        Console.WriteLine("Thanks");
                         break;
                     default:
-                        Console.WriteLine("Invalid input.");
-                        Console.ReadKey();
                         break;
                 }
-            }
-            else
-            {
-                Console.WriteLine("Invalid input.");
-                Console.ReadKey();
-                return;
             }
         }
         private void CreateBadge()
@@ -63,7 +57,7 @@ namespace Badge.UI
             Console.Clear();
             BadgePOCO badgeToBeAdded = new BadgePOCO();
             List<string> listOfDoors = new List<string>();
-            
+
             Console.WriteLine("What is the number on the badge:");
             badgeToBeAdded.BadgeID = int.Parse(Console.ReadLine());
 
@@ -72,29 +66,30 @@ namespace Badge.UI
             {
                 Console.WriteLine("List a door that it needs access to:");
                 string userInputDoor = Console.ReadLine();
+               
                 listOfDoors.Add(userInputDoor);
                 Console.WriteLine("Any other doors(y/n)?");
                 string userInputYes = Console.ReadLine();
-
-                if(userInputYes == "y")
+                
+                if (userInputYes == "y")
                 {
                     continue;
                 }
                 else
                 {
                     Console.WriteLine("Successfully added Badge!");
-                    addDoors = false;
                     Console.ReadKey();
-                        
+                    addDoors = false;
+
                 }
             }
                 badgeToBeAdded.DoorName = listOfDoors;
                 _badgeRepo.CreateBadge(badgeToBeAdded);
-        
         }
         private void UpdateBadge()
         {
             Console.Clear();
+
             Console.WriteLine("What is the badge number to Update?");
             int userInputUpdateBadge = int.Parse(Console.ReadLine());
             Console.WriteLine($"{_badgeRepo.GetBadgeId(userInputUpdateBadge)}\n" +
@@ -103,7 +98,7 @@ namespace Badge.UI
                 $"2. Add a door");
 
             int app2Number;
-            if (!int.TryParse(Console.ReadLine(), out app2Number))
+            if (int.TryParse(Console.ReadLine(), out app2Number))
             {
                 switch (app2Number)
                 {
@@ -120,16 +115,23 @@ namespace Badge.UI
                         break;
                 }
             }
-            else
-            {
-                Console.ReadKey();
-            }  
+            _badgeRepo.UpdateDoors(userInputUpdateBadge);
         }
         private void GetAllBadges()
-        { 
+        {
+            Console.Clear();
+            Dictionary<int, List<string>> badges =  _badgeRepo.GetBadges();
             Console.WriteLine(String.Format("|{0, -20}|{1, -20}|", "Badge#", "Door Access"));
-
-            Console.WriteLine($"{_badgeRepo.GetBadges()}");
+            if(badges.Count > 0)
+            {
+                Console.WriteLine(String.Format("|{0, -20}|{1, -20}|", $"{badges.Keys}", $"{badges.Values}"));
+            }
+            else
+            {
+                Console.WriteLine("No badges available.");
+            }
+            Console.WriteLine("Press any key to return to Main Menu.");
+            Console.ReadKey();
 
         }
     }

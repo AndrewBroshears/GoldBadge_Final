@@ -10,19 +10,17 @@ namespace Badge.Repository
     {
         //Need to make a dictionary for badges. Similar to list or Queue??
         private readonly Dictionary<int, List<string>> _badgeRepo = new Dictionary<int, List<string>>();
-        
+        public List<BadgePOCO> _badge = new List<BadgePOCO>();
 
-        public bool CreateBadge(BadgePOCO key)
+        public bool CreateBadge(BadgePOCO badge)
         {
-            if (_badgeRepo.ContainsKey(key.BadgeID) && key != null)
-            {
-                _badgeRepo.Add(key.BadgeID, key.DoorName);
-                return true;
-            }
-            else
+            if(badge == null)
             {
                 return false;
             }
+            _badge.Add(badge);
+            _badgeRepo.Add(badge.BadgeID, badge.DoorName);
+            return true;
         }
         public Dictionary<int, List<string>> GetBadges()
         {
@@ -41,13 +39,11 @@ namespace Badge.Repository
         }
         
         
-        public bool UpdateDoors(int badgeNum, string doorName)
+        public bool UpdateDoors(int badgeNum)
         {
-            if(_badgeRepo.ContainsKey(badgeNum) && doorName != null)
+            if(badgeNum != 0)
             {
-                List<string> listOfDoors = _badgeRepo[badgeNum];
-                listOfDoors.Add(doorName);
-                _badgeRepo[badgeNum] = listOfDoors;
+                _badgeRepo.Remove(badgeNum);
                 return true;
             }
             else
