@@ -14,6 +14,12 @@ that would take a dictionary of doors assigned to badges and apply CRUD methods.
 even after a few days of research. After several attempts I was able to get a working console app but many of methods are flawed. Ran into several conversion
 issues that limited the amount of completion time I had available. Didn't even attempt unit testing.
 
+GitHub Issues:
+A few things to note for GitHub utilization:
+-Overall organization is a must. I messed up folder paths, added too many folders, didnt save and had to recover and continueing with additional problems
+-Pushing still seems to be a issue especially with merge conflicts. Learned Force Push.
+-Remember to save!!!
+
 Note***
 I would still like to revist these apps in the future to complete their intented purposes and apply better techniques. Many many hours went into these challenges
 and I continue to have a new found respect the complexity of C# and a determination to master it.
