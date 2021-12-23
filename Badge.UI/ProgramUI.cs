@@ -66,11 +66,9 @@ namespace Badge.UI
             {
                 Console.WriteLine("List a door that it needs access to:");
                 string userInputDoor = Console.ReadLine();
-               
                 listOfDoors.Add(userInputDoor);
                 Console.WriteLine("Any other doors(y/n)?");
                 string userInputYes = Console.ReadLine();
-                
                 if (userInputYes == "y")
                 {
                     continue;
@@ -80,7 +78,6 @@ namespace Badge.UI
                     Console.WriteLine("Successfully added Badge!");
                     Console.ReadKey();
                     addDoors = false;
-
                 }
             }
                 badgeToBeAdded.DoorName = listOfDoors;
@@ -89,14 +86,12 @@ namespace Badge.UI
         private void UpdateBadge()
         {
             Console.Clear();
-
             Console.WriteLine("What is the badge number to Update?");
             int userInputUpdateBadge = int.Parse(Console.ReadLine());
             Console.WriteLine($"{_badgeRepo.GetBadgeId(userInputUpdateBadge)}\n" +
                 $"What would you like to do?\n" +
                 $"1. Remove a door\n" +
                 $"2. Add a door");
-
             int app2Number;
             if (int.TryParse(Console.ReadLine(), out app2Number))
             {
@@ -138,10 +133,6 @@ namespace Badge.UI
             if (listOfDoors.Count == 0)
             {
                 Console.WriteLine("No badges to display.");
-            }
-            else
-            {
-                return doors;
             }
             return doors;
         }
